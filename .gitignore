@@ -1,0 +1,10 @@
+# Credenciais — NUNCA versionar
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
