@@ -5,14 +5,17 @@ from src.state import ensure_state, load_batch, current_art
 from src.styles import inject_global_styles
 from src.ui.sidebar import render_sidebar
 from src.ui.gallery import render_gallery
+from src.styles import inject_global_styles
+
+
 
 
 st.set_page_config(
-    page_title=APP_TITLE,
-    layout=PAGE_LAYOUT,
-    initial_sidebar_state=INITIAL_SIDEBAR_STATE,
+    page_title="Galeria de Arte",
+    page_icon="🎨",
+    layout="wide",
+    initial_sidebar_state="collapsed"
 )
-
 
 def main():
     ensure_state()

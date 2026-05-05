@@ -11,23 +11,21 @@ from src.state import (
 )
 
 
-st.markdown(
-    """
-    <style>
-        [data-testid="stSidebarCollapseButton"] {
-            display: none;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 def render_sidebar():
     """
     Renderiza a barra lateral com filtros e ações.
     """
     with st.sidebar:
-        st.markdown("## ⚙️ Configurações")
+        st.markdown(
+            """
+            <div class="sidebar-header">
+                <span class="menu-icon">☰</span>
+                <h2>Configurações</h2>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
         st.divider()
 
         movement_options = list(MOVEMENTS.keys())
