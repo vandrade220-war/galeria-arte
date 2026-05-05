@@ -1,9 +1,12 @@
 # 🎨 Cantinho da Arte
+https://galeria-arte.streamlit.app/
 
 **Cantinho da Arte** é uma aplicação web desenvolvida com **Python** e **Streamlit** que funciona como uma galeria digital interativa.
 Para pessoas que gostam de arte, mas não sabem onde consumir esse tipo de entrenimento, aqui está! 
 Esse projeto pretende facilitar o acesso a essas obras de arte que estão disponíveis pela API do wikipédia.
 Além da navegação pelas obras, a aplicação também pode gerar um **contexto artístico com IA**, explicando a obra, seu movimento e sua importância cultural.
+
+<img width="1872" height="842" alt="image" src="https://github.com/user-attachments/assets/18a8414e-56c9-40b5-8037-b858085845a3" />
 
 ---
 
